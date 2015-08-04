@@ -62,4 +62,3 @@ function PostSlackMessage($text, $attachments = false, $message = null, $title =
     $context = stream_context_create($opts);
     file_get_contents($slack[$room], false, $context);
 }
-?>
